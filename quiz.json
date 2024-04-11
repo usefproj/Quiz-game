@@ -1,0 +1,23 @@
+[
+    {
+        "Q1" : "1. Who is the richiest?",
+        "a1": ["Me!", false],
+        "a2" : ["Elon musk", true],
+        "a3" : ["James Clear", false],
+        "a4" : ["Snoop Dog!", false]
+    },
+    {
+        "Q2" : "2. Biggest animal",
+        "a1" : ["blue whale", true],
+        "a2" : ["elephant", false],
+        "a3" : ["lion", false],
+        "a4" : ["Crocodile", false]
+    },
+    {
+        "Q3" : "3. Who is the richiest",
+        "a1" : ["Me!", false],
+        "a2" : ["Elon musk", true],
+        "a3" : ["James Clear", false],
+        "a4" : ["Snoop Dog!", false]
+    }
+]

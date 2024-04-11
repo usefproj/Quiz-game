@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Quiz me</title>
+    <link rel="stylesheet" href="./Styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card dark">
+        <h1>Simple Quiz</h1>
+        <div id="ps"></div>
+        <h2>What is the next step?</h2>
+        <ul>
+          <li class="answers" onclick="getAnswer(this,1)">Styling</li>
+          <li class="answers" onclick="getAnswer(this,2)">Cooooding</li>
+          <li class="answers" onclick="getAnswer(this,3)">Bed Time</li>
+          <li class="answers" onclick="getAnswer(this,4)">happy-LIfe</li>
+        </ul>
+        <div id="btn">
+          <button type="button" onclick="setupQuestion()">Next</button>
+        </div>
+        <a href="./text.html">set quiz</a>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+.light {
+  background-color: #fafafa;
+}
+.light #ps {
+  border-bottom: ridge 0.1rem #333333;
+}
+.light h1, .light h2{
+    color: #0095be;
+}
+.light a{
+    text-decoration: none;
+    background-color: #d7d7d7;
+    color: #0095be;
+}
+
+#btn button{
+    background-color: #02b3e4;
+}
+
+
+.dark {
+  background-color: #333333;
+}
+.dark #ps {
+  border-bottom: ridge 0.1rem #fafafa;
+}
+.dark h1, .dark h2{
+    color: #02b3e4;
+}
+.dark ul{
+    color: #02b3e4;
+    font-weight: 900;
+}
+.dark a{
+    background-color: #505050;
+}

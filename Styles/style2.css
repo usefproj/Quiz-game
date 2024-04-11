@@ -1,0 +1,17 @@
+input{
+    outline: 0;
+    padding: 7px;
+    border-radius: 20px;
+    width: 100%
+}
+
+li{
+    list-style: none;
+    display: flex;
+}
+#add-more{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}

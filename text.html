@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card dark">
+        <h1>Simple Quiz</h1>
+        <div id="ps"></div>
+
+        <ul>
+          <li class="question">
+            <label>Question:</label><input type="text" id="setQ" />
+          </li>
+          <li class="choices">
+            <label>Choice 1:</label><input type="text" id="set1" />
+            <input type="radio" name="true" id="true1">
+          </li>
+          <li class="choices">
+            <label>Choice 2:</label><input type="text" id="set2" />
+            <input type="radio" name="true" id="true2">
+          </li>
+          <li class="choices">
+            <label>Choice 3:</label><input type="text" id="set3" />
+            <input type="radio" name="true" id="true3">
+          </li>
+          <li class="choices">
+            <label>Choice 4:</label><input type="text" id="set4" />
+            <input type="radio" name="true" id="true4">
+          </li>
+        </ul>
+        <div id="btn">
+          <button type="button" onclick="setQuestion()">submit</button>
+          
+        </div>
+        <a href="./index.html">back</a>
+        <span id="add-more" onclick="andMore()">Add More questions</span>
+      </div>
+    </div>
+    <script src="app2.js"></script>
+  </body>
+</html>
